@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btn_set_position.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //随机调整位置
+                //随机调整位置,0:左上;1:左下;2:右上;3:右下
                 Random rand=new Random();
                 int position=rand.nextInt(3);
                 switch (position) {
