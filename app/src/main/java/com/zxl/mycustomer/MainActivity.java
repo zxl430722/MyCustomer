@@ -34,19 +34,15 @@ public class MainActivity extends AppCompatActivity {
                 int position=rand.nextInt(3);
                 switch (position) {
                     case 0:
-                        //左上
                         satelliteMenu.setPosition(SatelliteMenu.Position.POS_LEFT_TOP);
                         break;
                     case 1:
-                         //左下
                         satelliteMenu.setPosition(SatelliteMenu.Position.POS_LEFT_BOTTOM);
                         break;
                     case 2:
-                         //右上
                         satelliteMenu.setPosition(SatelliteMenu.Position.POS_RIGHT_TOP);
                         break;
                     case 3:
-                         //右下
                         satelliteMenu.setPosition(SatelliteMenu.Position.POS_RIGHT_BOTTOM);
                         break;
                 }
