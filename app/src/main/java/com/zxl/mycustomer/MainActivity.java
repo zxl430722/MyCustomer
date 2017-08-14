@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //随机调整位置,0:左上;1:左下;2:右上;3:右下。
                 Random rand=new Random();
-                int position=rand.nextInt(3);
+                int position=rand.nextInt(4);
                 switch (position) {
                     case 0:
                         satelliteMenu.setPosition(SatelliteMenu.Position.POS_LEFT_TOP);
@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
                         satelliteMenu.setPosition(SatelliteMenu.Position.POS_RIGHT_TOP);
                         break;
                     case 3:
-
                         satelliteMenu.setPosition(SatelliteMenu.Position.POS_RIGHT_BOTTOM);
                         break;
                 }
